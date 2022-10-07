@@ -32,6 +32,7 @@ export const Hero = ({}: Props) =>{
           height={300}
           width={300}
           className="rounded-full drop-shadow-sm mb-2"
+          priority={true}
         ></Image>{" "}
         <h2 className="text-1xl uppercase my-6 md:my-2 text-gray-200 tracking-[15px]">
           Software Engineer
