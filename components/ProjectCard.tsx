@@ -6,7 +6,7 @@ import { SocialIcon } from "react-social-icons";
 type Props = {};
 
 interface ProjectCardProps { 
-  imgUrl: StaticImageData;
+  imgUrl?: StaticImageData;
   name: string;
   frontOrBack: string;
   summary: string;

@@ -43,7 +43,6 @@ const projects = [
     videoUrl: "",
   },
   {
-    imgUrl: "",
     name: "StudyOut App",
     frontOrBack: "Full-stack",
     summary:
