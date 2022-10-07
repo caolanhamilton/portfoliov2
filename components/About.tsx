@@ -1,11 +1,10 @@
-
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function About({}: Props) {
+export const About = ({}: Props) => {
   return (
     <motion.div
       initial={{
@@ -15,27 +14,31 @@ export default function About({}: Props) {
         opacity: 1,
       }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-20 justify-evenly mx-auto items-center overflow-hidden"
+      className="h-screen flex relative flex-col text-center md:text-left  max-w-7xl px-8 md:px-20 justify-center mx-auto items-center overflow-hidden"
     >
-      <h3 className="absolute top-24 tracking-[15px] uppercase text-white text-2xl">
-        About
+      <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
+        About me
       </h3>
-      <img
-        src="https://www.caolanhamilton.co.uk/images/meonmoutaintopinspain.jpg"
-        className="rounded-full object-cover md:rounded-lg h-56 w-56 md:w-auto md:h-64 xl:w-[500px] xl:h-[500px]"
-      ></img>
+      <figure className="flex flex-col items-center mb-2">
+        <img
+          src="https://www.caolanhamilton.co.uk/images/meonmoutaintopinspain.jpg"
+          className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2"
+        ></img>
+        <figcaption className="text-gray-200 text-l md:text-lg italic">
+          Me on a mountain in Valencia
+        </figcaption>
+      </figure>
 
-      <div className="space-y-10 px-0 md:px-20">
-        <p className="text-white text-s md:text-lg">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Perspiciatis, temporibus repudiandae beatae error ex vitae esse in,
-          nostrum autem, possimus officiis ipsa quibusdam sunt voluptatem
-          asperiores impedit soluta. Unde, rem! Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Architecto et optio accusamus quia
-          molestias. Velit vero qui dignissimos, eius odit, accusamus ex nihil
-          exercitationem quisquam beatae incidunt possimus alias provident!
+      <div className="pt-4 space-y-10 w-full text-left px-0 md:px-20">
+        <p className="text-gray-200 text-lg  md:text-xl md:mt-2">
+          I decided to become a programmer because I am inspired by its
+          potential to make people’s lives easier and better. I love the
+          creative, problem-solving nature of software engineering and the
+          amazing feeling I get when solving hard problems, especially when
+          working in a team. You can find my work experience, projects or
+          contact me on this site!
         </p>
       </div>
     </motion.div>
   );
-}
+};

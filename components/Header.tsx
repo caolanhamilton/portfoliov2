@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function header({}: Props) {
+export const Header = ({}: Props) =>{
   return (
-    <header className="sticky top-0 flex items-start max-w-6xl mx-auto z-1">
+    <header className="sticky top-0 flex items-start max-w-6xl mx-auto z-50">
       <motion.div
         className="flex flex-row items-center"
         initial={{
@@ -39,6 +39,7 @@ export default function header({}: Props) {
           network="email"
           fgColor="white"
           bgColor="transparent"
+          url="mailto:caolanhamilton75@gmail.com"
         />
       </motion.div>
     </header>

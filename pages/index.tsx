@@ -1,32 +1,37 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import { motion } from "framer-motion";
-import About from "../components/About";
 import Experience from "../components/Experience";
+import { Header } from "../components/Header";
+import { Hero } from "../components/Hero";
+import { About } from "../components/About";
+import { Skills } from "../components/Skills";
+import { Projects } from "../components/Projects";
+import { Contact } from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-gradient-to-r from-purple-800 to-purple-500 snap-y snap-mandatory overflow-scroll z-0">
+    <div className="h-screen bg-gradient-to-r from-purple-800 to-purple-500 snap-y snap-mandatory overflow-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 z-0 animate-gradient-xy">
       <Head>
         <title>Caolán Hamilton</title>
       </Head>
       <Header></Header>
-      <Hero></Hero>
-      <section id="about" className="snap-center">
+      <section id="hero">
+        <Hero></Hero>
+      </section>
+      <section id="about" className="snap-start">
         <About></About>
       </section>
-      <section id="experience" className="snap-center">
+      <section id="experience" className="snap-start">
         <Experience></Experience>
       </section>
-      <section id="skills">
-        <h3>Skills</h3>
+      <section id="skills" className="snap-start">
+        <Skills></Skills>
       </section>
-      <section id="projects">
-        <h3>Projects</h3>
+      <section id="projects" className="snap-start">
+        <Projects></Projects>
+      </section>
+      <section id="contact" className="snap-start">
+        <Contact></Contact>
       </section>
     </div>
   );

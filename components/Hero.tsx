@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type Props = {};
 
-export default function Hero({}: Props) {
+export const Hero = ({}: Props) =>{
   const [text] = useTypewriter({
     words: ["Hi, I am Caolán!"],
     loop: 1,
@@ -31,9 +31,9 @@ export default function Hero({}: Props) {
           alt="Caolán's face"
           height={300}
           width={300}
-          className="rounded-full"
+          className="rounded-full drop-shadow-sm mb-2"
         ></Image>{" "}
-        <h2 className="text-1xl uppercase py-2 text-gray-300 tracking-[15px]">
+        <h2 className="text-1xl uppercase my-6 md:my-2 text-gray-200 tracking-[15px]">
           Software Engineer
         </h2>
         <h1 className="text-white text-6xl lg:text-8xl  font-semibold">
