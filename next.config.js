@@ -15,6 +15,7 @@ const nextConfig = {
       "miro.medium.com",
       "res.cloudinary.com",
       "git-scm.com",
+      "media-exp1.licdn.com",
     ],
   },
 };

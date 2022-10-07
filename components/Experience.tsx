@@ -6,7 +6,7 @@ type Props = {};
 const experience = [
   {
     photoUrl:
-      "https://www.globallogic.com/wp-content/uploads/2021/11/Symbol-29.png",
+      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bmpcglw3rxipjxnctyan",
     position: "Delivery Consultant",
     company: "GlobalLogic",
     date: "Sept 22 - Present",
@@ -33,7 +33,10 @@ const experience = [
     position: "Search Engine Evaluator",
     company: "Telus International AI",
     date: "Jan 19 - April 22",
-    summaryPoints: ["Provided feedback on accuracy and trustworthiness of search results", "Clients included worlds largest search engines"],
+    summaryPoints: [
+      "Provided feedback on accuracy and trustworthiness of search results",
+      "Clients included worlds largest search engines",
+    ],
   },
   {
     photoUrl:
@@ -41,7 +44,10 @@ const experience = [
     position: "Technical Support Rep",
     company: "Uni of Manchester",
     date: "Aug 15 - Jun 16",
-    summaryPoints: ["Provided first line technical support to customers", "Liaised with customers onsite and remotely"],
+    summaryPoints: [
+      "Provided first line technical support to customers",
+      "Liaised with customers onsite and remotely",
+    ],
   },
 ];
 
