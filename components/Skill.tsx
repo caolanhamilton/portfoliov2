@@ -19,6 +19,7 @@ export const Skill: React.FC<SkillProps> = (skill: SkillProps) => {
             alt="Skill logo"
             layout="fill"
             objectFit="cover"
+            priority={true}
           ></Image>
         </div>
         <figcaption className="text-gray-200 m-1">{skill.skillName}</figcaption>

@@ -23,6 +23,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = (project: ProjectCardProp
             className="w-full h-42 md:h-60 object-cover object-center rounded-t-lg"
             src={project.imgUrl}
             alt="Project image"
+            priority={true}
           ></Image>
         </div>
       ) : (

@@ -26,6 +26,7 @@ export const About = ({}: Props) => {
             src={meonmoutaintopinspain}
             className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2"
             alt="Caolán on a mountain top in Spain"
+            priority={true}
           ></Image>
         </div>
 

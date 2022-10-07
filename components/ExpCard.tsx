@@ -23,6 +23,7 @@ export const ExpCard: React.FC<ExperienceProps> = (
           alt="Company logo"
           layout="fill"
           objectFit="cover"
+          priority={true}
         ></Image>
       </div>
       <div className="px-2 flex flex-col items-start md:px-10">
