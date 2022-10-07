@@ -16,6 +16,8 @@ const nextConfig = {
       "res.cloudinary.com",
       "git-scm.com",
       "media-exp1.licdn.com",
+      "blog.rocketseat.com.br",
+      "viget.imgix.net",
     ],
   },
 };

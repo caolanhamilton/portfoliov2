@@ -32,7 +32,7 @@ const skillsList = [
   },
   {
     skillName: "ReactNative",
-    img: "https://miro.medium.com/max/1000/1*ub1DguhAtkCLvhUGuVGr6w.png",
+    img: "https://blog.rocketseat.com.br/content/images/2018/12/3-passos-para-aprender-react-native.png",
   },
   {
     skillName: "PSQL",
@@ -48,7 +48,7 @@ const skillsList = [
   },
   {
     skillName: "Jest",
-    img: "https://miro.medium.com/max/796/1*Q26gw-kNzOXUqZKRr04T-g.png",
+    img: "https://viget.imgix.net/jest.png?auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1280&ixlib=php-2.1.1&q=90&w=1280&s=c9052631a6c3117379c82ea853eca050",
   },
 ];
 

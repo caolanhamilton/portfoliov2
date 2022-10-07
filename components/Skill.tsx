@@ -14,7 +14,7 @@ export const Skill: React.FC<SkillProps> = (skill: SkillProps) => {
       <figure className="flex flex-col items-center justify-center">
         <div className="rounded-full border-4 drop-shadow-lg border-gray-300 object-cover h-16 w-16 md:h-28 md:w-28  mx-2">
           <Image
-            className="rounded-full border-4 drop-shadow-lg border-gray-300 object-cover h-16 w-16 md:h-28 md:w-28  mx-2"
+            className="rounded-full border-4 border-gray-300 object-cover h-16 w-16 md:h-28 md:w-28  mx-2"
             src={skill.img}
             alt="Skill logo"
             layout="fill"

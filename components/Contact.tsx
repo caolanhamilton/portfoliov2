@@ -38,6 +38,12 @@ export const Contact = (props: Props) => {
             style={{ height: 140, width: 140 }}
           />
           <SocialIcon
+            url="https://www.github.com/caolanhamilton/"
+            fgColor="white"
+            bgColor="transparent"
+            style={{ height: 130, width: 140 }}
+          />{" "}
+          <SocialIcon
             className="cursor-pointer"
             network="email"
             fgColor="white"
@@ -45,17 +51,11 @@ export const Contact = (props: Props) => {
             style={{ height: 150, width: 150 }}
             url="mailto:caolanhamilton75@gmail.com"
           />
-          <SocialIcon
-            url="https://www.github.com/caolanhamilton/"
-            fgColor="white"
-            bgColor="transparent"
-            style={{ height: 130, width: 140 }}
-          />
         </div>
       </div>
       <footer className="absolute bottom-4">
         <Link href="#hero">
-          <BsArrowUpCircle className="text-gray-200 text-6xl animate-bounce" />
+          <BsArrowUpCircle className="text-white text-6xl animate-bounce" />
         </Link>{" "}
       </footer>
     </motion.div>
