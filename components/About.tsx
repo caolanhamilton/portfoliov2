@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import meonmoutaintopinspain from "../public/meonmoutaintopinspain.jpeg";
 
 type Props = {};
 
@@ -20,10 +21,14 @@ export const About = ({}: Props) => {
         About me
       </h3>
       <figure className="flex flex-col items-center mb-2">
-        <img
-          src="https://www.caolanhamilton.co.uk/images/meonmoutaintopinspain.jpg"
-          className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2"
-        ></img>
+        <div className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2">
+          <Image
+            src={meonmoutaintopinspain}
+            className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2"
+            alt="Caolán on a mountain top in Spain"
+          ></Image>
+        </div>
+
         <figcaption className="text-gray-200 text-l md:text-lg italic">
           Me on a mountain in Valencia
         </figcaption>

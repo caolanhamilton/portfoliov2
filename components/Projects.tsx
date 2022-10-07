@@ -1,10 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ProjectCard } from "./ProjectCard";
+import GlutenFreeEatAPIPortfolioCover from "../public/GlutenFreeEatAPIPortfolioCover.png";
+import GlutenFreeEatPortfolioCover from "../public/GlutenFreeEatPortfolioCover.png";
+import NCNewsAPI from "../public/NCNewsAPI.jpeg";
+import NCNewsFrontEnd from "../public/NCNewsFrontEnd.png";
 const projects = [
   {
-    imgUrl:
-      "https://www.caolanhamilton.co.uk/images/GlutenFreeEatPortfolioCover.png",
+    imgUrl: GlutenFreeEatPortfolioCover,
     name: "Gluten Free Eats App",
     frontOrBack: "Front-end",
     summary:
@@ -13,8 +16,7 @@ const projects = [
     videoUrl: "",
   },
   {
-    imgUrl:
-      "https://www.caolanhamilton.co.uk/images/GlutenFreeEatAPIPortfolioCover.png",
+    imgUrl: GlutenFreeEatAPIPortfolioCover,
     name: "Gluten Free Eats API",
     frontOrBack: "Back-end",
     summary:
@@ -23,7 +25,7 @@ const projects = [
     videoUrl: "",
   },
   {
-    imgUrl: "https://www.caolanhamilton.co.uk/images/NCNewsAPI.jpg",
+    imgUrl: NCNewsAPI,
     name: "Northcoders News API",
     frontOrBack: "Back-end",
     summary:
@@ -32,7 +34,7 @@ const projects = [
     videoUrl: "",
   },
   {
-    imgUrl: "https://www.caolanhamilton.co.uk/images/NCNewsFrontEnd.png",
+    imgUrl: NCNewsFrontEnd,
     name: "Northcoders News App",
     frontOrBack: "Front-end",
     summary:
@@ -65,7 +67,7 @@ export const Projects = ({}: Props) =>{
       transition={{ duration: 1.5 }}
       className="h-screen flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto items-center overflow-hidden"
     >
-      <h3 className="absolute top-24 tracking-[15px] uppercase text-white text-2xl">
+      <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
         Projects
       </h3>
       <div className="w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 p-10 snap-x snap-mandatory">

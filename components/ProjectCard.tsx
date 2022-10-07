@@ -1,10 +1,12 @@
+import { StaticImageData } from "next/image";
 import React from "react";
+import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
 interface ProjectCardProps { 
-  imgUrl: string;
+  imgUrl: StaticImageData;
   name: string;
   frontOrBack: string;
   summary: string;
@@ -16,11 +18,13 @@ export const ProjectCard: React.FC<ProjectCardProps> = (project: ProjectCardProp
   return (
     <article className="flex flex-col items-center rounded-lg space-y-7 flex-shrink-0 w-[100%] md:w-[500px] snap-center bg-purple-500 p-0 drop-shadow-xl">
       {project.imgUrl ? (
-        <img
-          className="w-full h-42 md:h-60 object-cover object-center rounded-t-lg"
-          src={project.imgUrl}
-          alt="Project image"
-        ></img>
+        <div className="w-full h-42 md:h-60 object-cover object-center rounded-t-lg">
+          <Image
+            className="w-full h-42 md:h-60 object-cover object-center rounded-t-lg"
+            src={project.imgUrl}
+            alt="Project image"
+          ></Image>
+        </div>
       ) : (
         <iframe
           className="w-full h-42 md:h-60 rounded-t-lg"
