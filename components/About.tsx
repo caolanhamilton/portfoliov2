@@ -40,7 +40,7 @@ export const About = ({}: Props) => {
           potential to make people’s lives easier and better. I love the
           creative, problem-solving nature of software engineering and the
           amazing feeling I get when solving hard problems, especially when
-          working in a team. You can find my work experience, projects or
+          working in a team. In my free time I love to travel and hike. You can find my work experience, projects or
           contact me on this site!
         </p>
       </div>
