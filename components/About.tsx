@@ -21,20 +21,19 @@ export const About = ({}: Props) => {
         About me
       </h3>
       <figure className="flex flex-col items-center mb-2">
-        <div className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2">
+        <div className="rounded-full border-4 drop-shadow-lg object-cover h-60 w-60 md:h-80 md:rounded-xl md:w-[600px] mx-2">
           <Image
             src={meonmoutaintopinspain}
-            className="rounded-full object-cover md:rounded-3xl h-60 w-60 md:my-0 md:w-[600px] md:h-[350px] mb-2"
+            className="rounded-full border-4 drop-shadow-lg object-cover h-80 w-80 md:h-80 md:rounded-lg md:w-[600px] mx-2"
             alt="Caolán on a mountain top in Spain"
-            priority={true}
+            layout="fill"
+            objectFit="cover"
           ></Image>
         </div>
-
-        <figcaption className="text-gray-200 text-l md:text-lg italic">
+        <figcaption className="text-gray-200 text-l md:text-lg italic mt-2">
           Me on a mountain in Valencia
         </figcaption>
       </figure>
-
       <div className="pt-4 space-y-10 w-full text-left px-0 md:px-20">
         <p className="text-gray-200 text-lg  md:text-xl md:mt-2">
           I decided to become a programmer because I am inspired by its

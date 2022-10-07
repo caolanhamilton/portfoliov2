@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type Props = {};
 
-export const Hero = ({}: Props) =>{
+export const Hero = ({}: Props) => {
   const [text] = useTypewriter({
     words: ["Hi, I am Caolán!"],
     loop: 1,
@@ -26,14 +26,19 @@ export const Hero = ({}: Props) =>{
           duration: 2.5,
         }}
       >
-        <Image
-          src={headshot}
-          alt="Caolán's face"
-          height={300}
-          width={300}
-          className="rounded-full drop-shadow-sm mb-2"
-          priority={true}
-        ></Image>{" "}
+        <div className="rounded-full border-4 drop-shadow-lg object-cover h-60 w-60 md:h-80 md:w-80 md:mb-8 mx-auto">
+          <Image
+            src={headshot}
+            alt="Caolán's face"
+            height={300}
+            width={300}
+            className="rounded-full border-4 drop-shadow-lg object-cover h-80 w-80 mx-2"
+            priority={true}
+            layout="fill"
+            objectFit="cover"
+          ></Image>{" "}
+        </div>
+
         <h2 className="text-1xl uppercase my-6 md:my-2 text-gray-200 tracking-[15px]">
           Software Engineer
         </h2>
@@ -58,4 +63,4 @@ export const Hero = ({}: Props) =>{
       </motion.div>
     </div>
   );
-}
+};
