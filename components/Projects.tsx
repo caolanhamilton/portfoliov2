@@ -35,10 +35,10 @@ const projects = [
   },
   {
     imgUrl: NCNewsFrontEnd,
-    name: "Northcoders News App",
+    name: "Northcoders News",
     frontOrBack: "Front-end",
     summary:
-      "A mobile-first web application made with React. It is designed to be the front-end of a news app with similar functionality to Reddit.com. The app consumes my Northrcoders News API.",
+      "A mobile-first web application made with React. It is designed to be the front-end of a news app with similar functionality to Reddit.com.",
     gitHub: "https://github.com/caolanhamilton/nc-news-fe",
     videoUrl: "",
   },
@@ -46,7 +46,7 @@ const projects = [
     name: "StudyOut App",
     frontOrBack: "Full-stack",
     summary:
-      "A mobile-first web application made with React. It is designed to be the front-end of a news app with similar functionality to Reddit.com. The app consumes my Northrcoders News API.",
+      "Full-stack mobile app made with React Native, Expo, Go Lang and PSQL. The app allows students to find alternative study spaces.",
     gitHub: "https://github.com/OneInfiniteLoops/studyout",
     videoUrl: "https://www.youtube.com/watch?v=yF6A6Rio4Js",
   },
@@ -69,7 +69,7 @@ export const Projects = ({}: Props) =>{
       <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
         Projects
       </h3>
-      <div className="w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 p-10 snap-x snap-mandatory">
+      <div className="w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 p-10 md:py-20 snap-x snap-mandatory">
         {projects.map((project, index) => {
           return <ProjectCard key={index} {...project}></ProjectCard>;
         })}

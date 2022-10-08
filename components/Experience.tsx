@@ -60,7 +60,7 @@ export default function Experience({}: Props) {
       whileInView={{
         opacity: 1,
       }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 1 }}
       className="h-screen flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto  items-center overflow-hidden"
     >
       <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">

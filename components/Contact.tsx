@@ -53,7 +53,7 @@ export const Contact = (props: Props) => {
           />
         </div>
       </div>
-      <footer className="absolute bottom-4">
+      <footer className="absolute bottom-28">
         <Link href="#hero">
           <BsArrowUpCircle className="text-white text-6xl animate-bounce" />
         </Link>{" "}

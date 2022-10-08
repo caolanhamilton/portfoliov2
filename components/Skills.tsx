@@ -63,7 +63,7 @@ export const Skills = ({}: Props) => {
       whileInView={{
         opacity: 1,
       }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 1 }}
       className="h-screen flex relative flex-col text-center md:text-left xl:flew-row max-w-[2000px] xl:px-10 mx-auto justify-center xl:space-y-0 items-center"
     >
       <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">

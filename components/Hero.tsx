@@ -26,20 +26,13 @@ export const Hero = ({}: Props) => {
           duration: 2.5,
         }}
       >
-        <div className="rounded-full border-4 drop-shadow-lg object-cover h-60 w-60 md:h-80 md:w-80 md:mb-8 mx-auto">
-          <Image
-            src={headshot}
-            alt="Caolán's face"
-            height={300}
-            width={300}
-            className="rounded-full border-4 drop-shadow-lg object-cover h-80 w-80 mx-2"
-            priority={true}
-            layout="fill"
-            objectFit="cover"
-          ></Image>{" "}
-        </div>
+        <img
+          src={headshot.src}
+          alt="Caolán's face"
+          className="rounded-full border-4 drop-shadow-lg object-cover h-52 w-52 md:h-80 md:w-80 mx-auto"
+        ></img>
 
-        <h2 className="text-1xl uppercase my-6 md:my-2 text-gray-200 tracking-[15px]">
+        <h2 className="text-1xl uppercase my-6 md:my-4 text-gray-200 tracking-[15px]">
           Software Engineer
         </h2>
         <h1 className="text-white text-6xl lg:text-8xl  font-semibold">
