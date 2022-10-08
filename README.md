@@ -1,4 +1,10 @@
+# Portfolio site
+
+This is my portfolio site created from scratch using React with Next.js & Tailwind CSS. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+You can visit the hosted site here: http://www.caolanhamilton.co.uk
 
 ## Getting Started
 
