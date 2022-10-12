@@ -20,7 +20,7 @@ const projects = [
     name: "Gluten Free Eats API",
     frontOrBack: "Back-end",
     summary:
-      "Gluten Free Eats API provides a REST API for consumption by an iOS and Android app that allows sufferers of celiac disease and gluten intolerance to crowdsource safe places to dine out.",
+      "Gluten Free Eats API provides a REST API that allows sufferers of celiac disease and gluten intolerance to crowdsource safe places to dine out.",
     gitHub: "https://github.com/caolanhamilton/GlutenFreeEatsAPI",
     videoUrl: "",
   },
@@ -54,26 +54,30 @@ const projects = [
 
 type Props = {};
 
-export const Projects = ({}: Props) =>{
+export const Projects = ({}: Props) => {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-      }}
-      transition={{ duration: 1.5 }}
-      className="h-screen flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto items-center overflow-hidden"
-    >
-      <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
-        Projects
-      </h3>
-      <div className="w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 p-10 md:py-20 snap-x snap-mandatory">
-        {projects.map((project, index) => {
-          return <ProjectCard key={index} {...project}></ProjectCard>;
-        })}
+    <div className="h-screen flex flex-col items-center justify-start">
+      <div className="pt-20 text-center">
+        <h3 className="tracking-[15px] uppercase text-white text-2xl">
+          Projects
+        </h3>
       </div>
-    </motion.div>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{ duration: 1.5 }}
+        className="h-full flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto items-center overflow-hidden"
+      >
+        <div className="h-full w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 px-10 pb-20 pt-10 md:p-10  snap-x snap-mandatory">
+          {projects.map((project, index) => {
+            return <ProjectCard key={index} {...project}></ProjectCard>;
+          })}
+        </div>
+      </motion.div>
+    </div>
   );
-}
+};

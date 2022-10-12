@@ -23,11 +23,19 @@ export const Contact = (props: Props) => {
       <div className="flex flex-col space-y-10 w-full px-20">
         <p className="text-white italic text-2xl text-center md:text-2xl md:mt-2">
           Lets chat! Feel free to{" "}
-          <span className="decoration-yellow-500 underline">email</span> me and
-          connect on{" "}
-          <span className="decoration-yellow-500 underline">LinkedIn</span>
+          <a href="mailto:caolanhamilton75@gmail.com">
+            <span className="decoration-purple-300 underline">email</span>
+          </a>
+          <span>
+            {" "} me or connect with me on{" "}
+          </span>
+          <a href="https://www.linkedin.com/in/caolanhamilton/">
+            <span className="decoration-purple-300 underline">LinkedIn</span>
+          </a>
           <span className=""> or </span>
-          <span className="decoration-yellow-500 underline">GitHub</span>.
+          <a href="https://github.com/caolanhamilton">
+          <span className="decoration-purple-300 underline">GitHub</span>.
+          </a>
         </p>
         <div className="flex flex-row items-center justify-center">
           {""}

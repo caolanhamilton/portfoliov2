@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {Skill} from "./Skill";
+import { Skill } from "./Skill";
 const skillsList = [
   {
     skillName: "JavaScript",
@@ -56,24 +56,28 @@ type Props = {};
 
 export const Skills = ({}: Props) => {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-      }}
-      transition={{ duration: 1 }}
-      className="h-screen flex relative flex-col text-center md:text-left xl:flew-row max-w-[2000px] xl:px-10 mx-auto justify-center xl:space-y-0 items-center"
-    >
-      <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
-        Skills
-      </h3>
-      <div className="grid grid-cols-3 gap-5 md:grid-cols-4">
-        {skillsList.map((skill, index) => {
-          return <Skill key={index} {...skill}></Skill>;
-        })}
+    <div className="h-screen flex flex-col items-center justify-start">
+      <div className="pt-20 text-center mb-1">
+        <h3 className="tracking-[15px] uppercase text-white text-2xl">
+          Projects
+        </h3>
       </div>
-    </motion.div>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{ duration: 1 }}
+        className="h-full flex relative flex-col text-center md:text-left xl:flew-row max-w-[2000px] xl:px-10 mx-auto justify-center xl:space-y-0 items-center mb-20"
+      >
+        <div className="grid grid-cols-3 gap-5 md:grid-cols-4">
+          {skillsList.map((skill, index) => {
+            return <Skill key={index} {...skill}></Skill>;
+          })}
+        </div>
+      </motion.div>
+    </div>
   );
-}
+};

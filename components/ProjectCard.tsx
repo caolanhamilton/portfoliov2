@@ -39,10 +39,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = (
       )}
       <div className="px-4 md:px-10">
         <h4 className="text-2xl md:text-4xl text-white">{project.name}</h4>
-        <p className="font-bold text-l md:text-2xl mt-0 md:mt-1 text-white">
+        <p className="font-bold text-lg md:text-2xl mt-0 md:mt-1 text-white">
           {project.frontOrBack}
         </p>
-        <p className="text-gray-200 py-0 md:py-5">{project.summary}</p>
+        <p className="text-gray-200 text-lg py-0 md:py-5">{project.summary}</p>
         <div className="flex flex-row list-none text-lg items-center justify-center">
           <SocialIcon
             url={project.gitHub}

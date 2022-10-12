@@ -53,24 +53,28 @@ const experience = [
 
 export default function Experience({}: Props) {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-      }}
-      transition={{ duration: 1 }}
-      className="h-screen flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto  items-center overflow-hidden"
-    >
-      <h3 className="absolute top-20 tracking-[15px] uppercase text-white text-2xl">
-        Experience
-      </h3>
-        <div className="w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 p-10 snap-x snap-mandatory">
+    <div className="h-screen flex flex-col items-center justify-start">
+      <div className="pt-20 text-center">
+        <h3 className="tracking-[15px] uppercase text-white text-2xl">
+          Experience
+        </h3>
+      </div>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{ duration: 1 }}
+        className="h-full flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto  items-center overflow-hidden"
+      >
+        <div className="w-full h-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 px-10 pb-20 pt-10 md:p-20 snap-x snap-mandatory">
           {experience.map((experience, index) => {
             return <ExpCard {...experience} key={index}></ExpCard>;
           })}
         </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 }
