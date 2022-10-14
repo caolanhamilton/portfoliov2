@@ -59,7 +59,7 @@ export const Skills = ({}: Props) => {
     <div className="h-screen flex flex-col items-center justify-start">
       <div className="pt-20 text-center mb-1">
         <h3 className="tracking-[15px] uppercase text-white text-2xl">
-          Projects
+          Skills
         </h3>
       </div>
       <motion.div
