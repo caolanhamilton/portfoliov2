@@ -11,9 +11,8 @@ const experience = [
     company: "GlobalLogic",
     date: "Sept 22 - Present",
     summaryPoints: [
-      "Training in academy for 3 months",
-      "Learning Development, DevOps & Testing",
-      "Trained in presentation and soft skills",
+      "Worked on internal projects utilising Node.js, Express, Cypress, Jest, AWS with Terraform and Jenkins.",
+      "Utilised DevOps and Agile practices.",
     ],
   },
   {
@@ -23,8 +22,8 @@ const experience = [
     company: "Northcoders",
     date: "April 22 - Jul 22",
     summaryPoints: [
-      "Completed full-stack development course",
-      "Learnt React, Express, Node, REST APIs, PSQL",
+      "Completed 13 week full-stack development course.",
+      "Learnt React, Express, Node, REST APIs, PSQL.",
     ],
   },
   {

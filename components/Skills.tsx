@@ -7,6 +7,10 @@ const skillsList = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswE6tnbgoKpipA4qMIRlsVUg7DzTORsWSUw&usqp=CAU",
   },
   {
+    skillName: "TypeScript",
+    img: "https://cdn-icons-png.flaticon.com/512/919/919832.png",
+  },
+  {
     skillName: "CSS",
     img: "https://www.kindpng.com/picc/m/23-237467_transparent-css3-logo-png-html5-css3-png-download.png",
   },
@@ -31,10 +35,6 @@ const skillsList = [
     img: "https://ih1.redbubble.net/image.1637718590.1604/st,small,845x845-pad,1000x1000,f8f8f8.jpg",
   },
   {
-    skillName: "ReactNative",
-    img: "https://blog.rocketseat.com.br/content/images/2018/12/3-passos-para-aprender-react-native.png",
-  },
-  {
     skillName: "PSQL",
     img: "https://ih1.redbubble.net/image.317868765.8549/st,small,507x507-pad,600x600,f8f8f8.jpg",
   },
@@ -49,6 +49,30 @@ const skillsList = [
   {
     skillName: "Jest",
     img: "https://viget.imgix.net/jest.png?auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1280&ixlib=php-2.1.1&q=90&w=1280&s=c9052631a6c3117379c82ea853eca050",
+  },
+  {
+    skillName: "AWS",
+    img: "https://www.jdrf.org/wp-content/uploads/2020/12/AWS-logo-2.jpg",
+  },
+  {
+    skillName: "Terraform",
+    img: "https://www.pngitem.com/pimgs/m/206-2068983_terraform-hashicorp-hd-png-download.png",
+  },
+  {
+    skillName: "Jenkins",
+    img: "https://www.pngitem.com/pimgs/m/340-3408094_jenkins-ci-hd-png-download.png",
+  },
+  {
+    skillName: "Cypress",
+    img: "https://media.slid.es/avatars/1098231/Cypress_Logomark_Color_Dark_BG.jpg",
+  },
+  {
+    skillName: "Docker",
+    img: "https://www.pngfind.com/pngs/m/255-2553250_icon-docker-notext-color-docker-icon-png-transparent.png",
+  },
+  {
+    skillName: "ReactNative",
+    img: "https://blog.rocketseat.com.br/content/images/2018/12/3-passos-para-aprender-react-native.png",
   },
 ];
 
@@ -72,7 +96,7 @@ export const Skills = ({}: Props) => {
         transition={{ duration: 1 }}
         className="h-full flex relative flex-col text-center md:text-left xl:flew-row max-w-[2000px] xl:px-10 mx-auto justify-center xl:space-y-0 items-center mb-20"
       >
-        <div className="grid grid-cols-3 gap-5 md:grid-cols-4">
+        <div className="grid grid-cols-4 gap-3 md:gap-5 md:grid-cols-6">
           {skillsList.map((skill, index) => {
             return <Skill key={index} {...skill}></Skill>;
           })}
