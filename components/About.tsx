@@ -3,9 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import meonmoutaintopinspain from "../public/meonmoutaintopinspain.jpeg";
 
-type Props = {};
-
-export const About = ({}: Props) => {
+export const About = () => {
   return (
     <motion.div
       initial={{

@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
 import { BsArrowUpCircle } from "react-icons/bs";
 import Link from "next/link";
-type Props = {};
 
-export const Contact = (props: Props) => {
+export const Contact = () => {
   return (
     <motion.div
       initial={{

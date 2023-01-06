@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
 interface ExperienceProps {
   photoUrl: string;
   position: string;

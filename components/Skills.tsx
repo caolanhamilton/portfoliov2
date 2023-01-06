@@ -76,9 +76,7 @@ const skillsList = [
   },
 ];
 
-type Props = {};
-
-export const Skills = ({}: Props) => {
+export const Skills = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-start">
       <div className="pt-20 text-center mb-1">

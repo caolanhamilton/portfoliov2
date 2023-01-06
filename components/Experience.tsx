@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExpCard } from "./ExpCard";
-type Props = {};
 
 const experience = [
   {
@@ -17,7 +16,7 @@ const experience = [
   },
   {
     photoUrl:
-      "https://media-exp1.licdn.com/dms/image/C4D0BAQFvuv0bbFovrA/company-logo_200_200/0/1606747044273?e=1671667200&v=beta&t=lO0vVLbYePmTwebNVWVSkiHjVsOY90Qze-JI1Vi-jPI",
+      "https://pbs.twimg.com/profile_images/1333392601450426370/x_DT51WI_400x400.jpg",
     position: "Student Software Engineer",
     company: "Northcoders",
     date: "April 22 - Jul 22",
@@ -28,7 +27,7 @@ const experience = [
   },
   {
     photoUrl:
-      "https://media-exp1.licdn.com/dms/image/C560BAQHAe-roNpTebg/company-logo_200_200/0/1657119739427?e=1671667200&v=beta&t=l5ip5UPGpQwnTQmSKFU3mW-e00vmMtZDl5SLgEhmNBo",
+      "https://pbs.twimg.com/profile_images/1414663234288709633/JtPIaOe6_400x400.jpg",
     position: "Search Engine Evaluator",
     company: "Telus International AI",
     date: "Jan 19 - April 22",
@@ -39,7 +38,7 @@ const experience = [
   },
   {
     photoUrl:
-      "https://media-exp1.licdn.com/dms/image/C560BAQEYpS-SHXO1Mg/company-logo_200_200/0/1519900649377?e=1671667200&v=beta&t=__c2fdMyRQJMLBHD7ul_MieJMuvvfmylPLCUmEqgA0g",
+      "https://scontent-man2-1.xx.fbcdn.net/v/t1.18169-9/12003313_1199441630082259_4602572450153020544_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uDmq0aGD10kAX95dEv_&_nc_ht=scontent-man2-1.xx&oh=00_AfCDfOtQZe18mC5ZQuExVYWH7elKU4DXcw3OokKj6NV2gw&oe=63DFBFF5",
     position: "Technical Support Rep",
     company: "Uni of Manchester",
     date: "Aug 15 - Jun 16",
@@ -50,7 +49,7 @@ const experience = [
   },
 ];
 
-export default function Experience({}: Props) {
+export default function Experience() {
   return (
     <div className="h-screen flex flex-col items-center justify-start">
       <div className="pt-20 text-center">

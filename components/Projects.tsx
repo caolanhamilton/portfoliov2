@@ -52,9 +52,7 @@ const projects = [
   },
 ];
 
-type Props = {};
-
-export const Projects = ({}: Props) => {
+export const Projects = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-start">
       <div className="pt-20 text-center">

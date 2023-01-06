@@ -1,9 +1,6 @@
 import { StaticImageData } from "next/image";
 import React from "react";
-import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
-
-type Props = {};
 
 interface ProjectCardProps {
   imgUrl?: StaticImageData;
@@ -13,7 +10,7 @@ interface ProjectCardProps {
   gitHub: string;
   videoUrl: string;
 }
-console.log();
+
 export const ProjectCard: React.FC<ProjectCardProps> = (
   project: ProjectCardProps
 ) => {

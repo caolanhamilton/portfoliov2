@@ -5,9 +5,7 @@ import Image from "next/image";
 import headshot from "../public/headshot.jpeg";
 import Link from "next/link";
 
-type Props = {};
-
-export const Hero = ({}: Props) => {
+export const Hero = () => {
   const [text] = useTypewriter({
     words: ["Hi, I am Caolán!"],
     loop: 1,
