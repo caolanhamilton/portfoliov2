@@ -6,7 +6,7 @@ const experience = [
   {
     photoUrl:
       "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bmpcglw3rxipjxnctyan",
-    position: "DSoftware Engineer",
+    position: "Software Engineer",
     company: "GlobalLogic",
     date: "Sept 22 - Present",
     summaryPoints: [
