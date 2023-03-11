@@ -1,7 +1,5 @@
-import { addScaleCorrector, motion } from "framer-motion";
-import React from "react";
+import { motion } from "framer-motion";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import Image from "next/image";
 import headshot from "../public/headshot.jpeg";
 import Link from "next/link";
 

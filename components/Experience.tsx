@@ -6,11 +6,11 @@ const experience = [
   {
     photoUrl:
       "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bmpcglw3rxipjxnctyan",
-    position: "Delivery Consultant",
+    position: "DSoftware Engineer",
     company: "GlobalLogic",
     date: "Sept 22 - Present",
     summaryPoints: [
-      "Worked on internal projects utilising Node.js, Express, Cypress, Jest, AWS with Terraform and Jenkins.",
+      "Worked on projects utilising Node.js, Express, Cypress, Jest, AWS with Terraform and Jenkins.",
       "Utilised DevOps and Agile practices.",
     ],
   },
@@ -38,7 +38,7 @@ const experience = [
   },
   {
     photoUrl:
-      "https://scontent-man2-1.xx.fbcdn.net/v/t1.18169-9/12003313_1199441630082259_4602572450153020544_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uDmq0aGD10kAX95dEv_&_nc_ht=scontent-man2-1.xx&oh=00_AfCDfOtQZe18mC5ZQuExVYWH7elKU4DXcw3OokKj6NV2gw&oe=63DFBFF5",
+      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/yf46nrge46huusfobovh",
     position: "Technical Support Rep",
     company: "Uni of Manchester",
     date: "Aug 15 - Jun 16",
