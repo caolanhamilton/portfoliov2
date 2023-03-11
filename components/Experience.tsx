@@ -17,7 +17,7 @@ const experience = [
   {
     photoUrl:
       "https://pbs.twimg.com/profile_images/1333392601450426370/x_DT51WI_400x400.jpg",
-    position: "Student Software Engineer",
+    position: "Trainee Software Engineer",
     company: "Northcoders",
     date: "April 22 - Jul 22",
     summaryPoints: [
