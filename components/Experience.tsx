@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { ExpCard } from "./ExpCard";
 
@@ -10,7 +9,7 @@ const experience = [
     company: "GlobalLogic",
     date: "Sept 22 - Present",
     summaryPoints: [
-      "Worked on projects utilising Node.js, Express, Cypress, Jest, AWS with Terraform and Jenkins.",
+      "Worked on projects utilising Node.js, Express, Java, Spring Boot, PSQL, Prisma, Cypress, Jest, AWS with Terraform and Jenkins.",
       "Utilised DevOps and Agile practices.",
     ],
   },

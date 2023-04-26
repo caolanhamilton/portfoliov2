@@ -38,8 +38,8 @@ const projects = [
     name: "Northcoders News",
     frontOrBack: "Front-end",
     summary:
-      "A mobile-first web application made with React. It is designed to be the front-end of a news app with similar functionality to Reddit.com.",
-    gitHub: "https://github.com/caolanhamilton/nc-news-fe",
+      "Northcoders News is a responsive blog application it was a project started durning my time at Northcoders made with TypeScript, Next.js, React & Tailwind CSS. It implements SSR for improved performance",
+    gitHub: "https://github.com/caolanhamilton/nc-news-fe-v2",
     videoUrl: "",
   },
   {
