@@ -15,7 +15,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = (
   project: ProjectCardProps
 ) => {
   return (
-    <article className="flex flex-col items-center rounded-lg space-y-7 flex-shrink-0 w-[100%] md:w-[500px] snap-center bg-purple-500 p-0 drop-shadow-xl">
+    <article className="flex flex-col items-center rounded-lg space-y-7 flex-shrink-0 w-[100%] md:w-[500px] snap-center bg-[#2a4745] p-0 drop-shadow-xl">
       {project.imgUrl ? (
         <img
           className="w-full h-42 md:h-60 rounded-t-lg object-cover"

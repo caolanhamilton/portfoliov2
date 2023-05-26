@@ -66,7 +66,7 @@ export default function Experience() {
         transition={{ duration: 1 }}
         className="h-full flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto  items-center overflow-hidden"
       >
-        <div className="w-full h-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 px-10 pb-20 pt-10 md:p-20 snap-x snap-mandatory">
+        <div className="w-full h-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500 px-10 pb-20 pt-10 md:p-20 snap-x snap-mandatory">
           {experience.map((experience, index) => {
             return <ExpCard {...experience} key={index}></ExpCard>;
           })}

@@ -70,7 +70,7 @@ export const Projects = () => {
         transition={{ duration: 1.5 }}
         className="h-full flex relative flex-col text-left md:text-left md:flex-row max-w-full  justify-evenly mx-auto items-center overflow-hidden"
       >
-        <div className="h-full w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 px-10 pb-20 pt-10 md:p-10  snap-x snap-mandatory">
+        <div className="h-full w-full m-auto flex space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500 px-10 pb-20 pt-10 md:p-10  snap-x snap-mandatory">
           {projects.map((project, index) => {
             return <ProjectCard key={index} {...project}></ProjectCard>;
           })}

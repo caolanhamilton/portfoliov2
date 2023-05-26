@@ -10,7 +10,7 @@ import { Contact } from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-gradient-to-r from-purple-800 to-purple-500 snap-y snap-mandatory overflow-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-purple-900 z-0 animate-gradient-xy">
+    <div className="h-screen bg-gradient-to-r from-gray-800 to-[#2a4745] snap-y snap-mandatory overflow-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500 z-0 animate-gradient-xy">
       <Head>
         <title>Caolán Hamilton</title>
       </Head>
