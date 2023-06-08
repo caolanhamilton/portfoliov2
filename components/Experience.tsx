@@ -26,7 +26,7 @@ const experience = [
   },
   {
     photoUrl:
-      "https://mms.businesswire.com/media/20210727005387/en/836560/23/TELUS_2020_Int_EN_Vert_Digital_RGB.jpg",
+      "https://static.bakeca.it/immagini/bf6/bf636f7d81e3bce6c95552d6d7800f89.jpg",
     position: "Search Engine Evaluator",
     company: "Telus International AI",
     date: "Jan 19 - April 22",
